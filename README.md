@@ -1,27 +1,35 @@
-# HeroAssociation
+<h1 align="center">
+  Rock Paper Scissors
+  <br>
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+<h4 align="center">My first personal project to understand CSS, HTML, JavaScript and Bootstrap better.</h4>
 
-## Development server
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-play">How To Play</a> •
+  <a href="#screenshots">Screenshots</a> •
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Key Features
 
-## Code scaffolding
+* A functional Rock Paper Scissors game until someone presses the 'give up' button.
+* Can be played with another human being or a computer
+* When someone presses the 'give up' button, the name and score will be saved locally. This is made possible with Dexie.js, a minimalistic wrapper for IndexedDB.
+* Made with Bootstrap
+* Great confetti when someone gives up, using party.js
+* Small notifications using Toastify.js
+* Used this great nature palette for it, tryin' to also get that yellow emoji vibe:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![6](https://user-images.githubusercontent.com/103831098/195327010-9ac0b3d1-b75e-4de7-bc71-683afc5ed78a.PNG)
 
-## Build
+## How To Play
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Just download or clone this. Use a Live Server extension to run it. With such simple buttons, there's no way you can get lost.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Screenshots
+![1](https://user-images.githubusercontent.com/103831098/195326557-813dc8b5-5f24-48ce-b70e-9d974234491c.png)
+![2](https://user-images.githubusercontent.com/103831098/195326562-202b1a1c-a773-4384-a7de-c673cdb03cc0.png)
+![3](https://user-images.githubusercontent.com/103831098/195326565-15de4351-0684-4bae-a019-6469dc96132f.png)
+![4](https://user-images.githubusercontent.com/103831098/195326570-d3ee68b1-2c58-4079-b35d-bf191f0a9691.png)
+![5](https://user-images.githubusercontent.com/103831098/195326573-d6a6eb01-a631-47ed-97ba-5ade0ed018ea.png)
