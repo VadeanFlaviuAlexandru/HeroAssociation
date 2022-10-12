@@ -1,0 +1,56 @@
+label{
+    font-size: 20px;
+}
+
+li {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+ul li {
+    background: #28251e;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #FDFEFF
+}
+
+a:visited {
+    color: #FDFEFF
+}
+
+li:hover {
+    transform: scale(1.06);
+}
+
+ul {
+    width: 800px;
+    height: 210px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/*both for hidihg scrollbar*/
+/*Chrome, Safari and Opera */
+li::-webkit-scrollbar {
+    display: none;
+}
+
+/*IE, Edge and Firefox */
+ul {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

@@ -1,0 +1,19 @@
+<div *ngIf="hero">
+
+  <h2>{{hero.name | uppercase}} Database Details</h2>
+  <div style="margin: 25px;">
+    <div id="display">
+      <label for="hero-name">Hero Name: </label>
+      <input id="hero-name" [(ngModel)]="hero.name" placeholder="classified">
+      <label for="hero-rank">Hero Rank: </label>
+      <input id="hero-rank" [(ngModel)]="hero.rank" placeholder="classified">
+      <label for="hero-power">Hero Power: </label>
+      <input id="hero-power" [(ngModel)]="hero.power" placeholder="classified">
+      <label for="hero-AlterEgo">Hero AlterEgo: </label>
+      <input id="hero-AlterEgo" [(ngModel)]="hero.alterEgo" placeholder="classified">
+    </div>
+  </div>
+  <button id="button" type="button" (click)="goBack()">go back</button>
+  <button id="button" type="button" (click)="save()">save</button>
+</div>
+

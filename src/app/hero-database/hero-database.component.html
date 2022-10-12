@@ -1,0 +1,21 @@
+<h2>Available Heroes</h2>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+    <a routerLink="/detail/{{hero.id}}">
+      <span class="badge"></span>Id: {{hero.id}}
+      <span style="padding-left:30px;"></span> |
+      <span style="padding-left:30px;"></span>
+      Hero Name:
+      <span style="padding-left:10px;"></span>
+      {{hero.name}}
+    </a>
+    <span style="padding-left:30px;"></span> |
+    <span style="padding-left:30px;"></span>
+    Class: {{hero.rank}}
+    <span style="padding-left:30px;"></span> |
+    <span style="padding-left:30px;"></span>
+    <button type="button" class="delete" title="delete hero" (click)="delete(hero)">Delete Hero</button>
+  </li>
+</ul>
+<button id="button" routerLink="/Form"> Add a hero </button>
+<app-edit-hero [hero]="selectedHero"></app-edit-hero>

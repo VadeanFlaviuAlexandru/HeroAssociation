@@ -1,0 +1,12 @@
+<h2>Top Heroes by Popularity</h2>
+
+<div class="heroes-menu">
+  <a *ngFor="let hero of heroes "
+    routerLink="/detail/{{hero.id}}">
+    <span style="padding-left:40px;"></span>
+    {{hero.name}}
+  </a>
+</div>
+
+
+<app-hero-search style="margin: 10px;"></app-hero-search>

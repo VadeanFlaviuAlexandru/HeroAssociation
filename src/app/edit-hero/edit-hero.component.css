@@ -1,0 +1,29 @@
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+#display{
+    display: grid;
+    grid-row: 1 / span 3;
+}
+
+input{
+    text-align: center;
+}

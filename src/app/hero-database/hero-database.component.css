@@ -1,0 +1,71 @@
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+}
+#button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.delete{
+    background: none;
+    color:#FDFEFF;
+    border-radius: 10px;
+}
+li {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+ul li {
+    background: #28251e;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #FDFEFF
+}
+
+a:visited {
+    color: #FDFEFF
+}
+
+li:hover {
+    transform: scale(1.06);
+}
+
+ul {
+    width: 800px;
+    height: 210px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/*both for hidihg scrollbar*/
+/*Chrome, Safari and Opera */
+li::-webkit-scrollbar {
+    display: none;
+}
+
+/*IE, Edge and Firefox */
+ul {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

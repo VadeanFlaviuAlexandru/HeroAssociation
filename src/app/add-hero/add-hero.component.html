@@ -1,0 +1,32 @@
+<div class="container">
+  <div [hidden]="submitted">
+    <h1>Hero Form</h1>
+    <form (ngSubmit)="onSubmit()" #heroForm="ngForm">
+      <div class="form-group">
+        <label for="name" style="margin: 61px;">Name</label>
+        <input type="text" class="form-control" id="name"
+               required
+               [(ngModel)]="model.name" name="name"
+               #name="ngModel">
+        <div [hidden]="name.valid || name.pristine"
+             class="alert alert-danger">
+          Name is required
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="alterEgo" style="margin: 39px;">Alter Ego</label>
+        <input type="text" class="form-control" id="alterEgo"
+               [(ngModel)]="model.alterEgo" name="alterEgo">
+      </div>
+
+      <div class="form-group" style="margin-bottom: 20px;">
+        <label for="power" style="margin: 25px;">Hero Power</label>
+        <input type="text" class="form-control" id="power"
+               [(ngModel)]="model.power" name="power">
+      </div>
+
+      <button id="button" type="button" class="btn btn-default" (click)="newHero(name.value); heroForm.reset()">Submit new hero!</button>
+      <button id="button" type="button" (click)="goBack()" style="margin-left: 10px;">go back</button>
+    </form>
+  </div>
