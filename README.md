@@ -14,7 +14,7 @@
 
 * C.R.U.D. of a Hero Database
 * Used dependencies to use HTTP in the application
-* Used this great nature palette for it, tryin' to also get that yellow emoji vibe:
+* Used this great nature palette for it. I wanted some black and white in this project:
 
 ![c](https://user-images.githubusercontent.com/103831098/195430167-ddc42d5b-5a80-448c-8cea-4ebe33ba0edd.PNG)
 
