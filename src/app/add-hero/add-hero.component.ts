@@ -27,7 +27,7 @@ export class AddHeroComponent implements OnInit {
     this.location.back();
   }
 
-  model = new Hero(18, '', '', '');
+  model = new Hero(18, '', '', '','');
 
   submitted = false;
 

@@ -16,3 +16,10 @@ h1{
 label{
     font-size: 30px;
 }
+
+.form-control{
+    border-radius: 25px;
+    background: #ffffff67;
+    border: none;
+    outline: none;
+}

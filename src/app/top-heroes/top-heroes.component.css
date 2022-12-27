@@ -1,12 +1,22 @@
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 200px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    text-decoration: underline;
 }
-
+.heroes-menu{
+    display: flex;
+    margin: 30px;
+    text-align: center;
+    gap:1.5rem;
+}
 a {
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+    border-radius: 5px;
+    border: solid;
+    padding: 0.5rem;
 }
 
 a:active {

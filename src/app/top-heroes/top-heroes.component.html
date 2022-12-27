@@ -2,8 +2,8 @@
 
 <div class="heroes-menu">
   <a *ngFor="let hero of heroes "
-    routerLink="/detail/{{hero.id}}">
-    <span style="padding-left:40px;"></span>
+    routerLink="/detail/{{hero.id}}"
+    [style.borderColor]="hero.colour">
     {{hero.name}}
   </a>
 </div>

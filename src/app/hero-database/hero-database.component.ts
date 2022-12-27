@@ -10,7 +10,7 @@ import { HeroService } from '../hero.service';
 export class HeroDatabaseComponent implements OnInit {
   heroes: Hero[] = [];
   selectedHero?: Hero;
-
+  hideSharedLinkCopyMessage = false;
   constructor(private heroService: HeroService) { }
 
   ngOnInit(): void {
@@ -38,5 +38,9 @@ export class HeroDatabaseComponent implements OnInit {
   delete(hero: Hero): void {
     this.heroes = this.heroes.filter(h => h !== hero);
     this.heroService.deleteHero(hero.id).subscribe();
+    this.hideSharedLinkCopyMessage = true;
+    setTimeout( () => {
+      this.hideSharedLinkCopyMessage = false;
+    }, 2000);
   }
 }

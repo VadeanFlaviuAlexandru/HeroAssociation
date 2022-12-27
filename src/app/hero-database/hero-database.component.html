@@ -1,4 +1,5 @@
 <h2>Available Heroes</h2>
+<h3 *ngIf="hideSharedLinkCopyMessage"> ❗ ❗ ❗ Hero deleted ❗ ❗ ❗ </h3>
 <ul class="heroes">
   <li *ngFor="let hero of heroes">
     <a routerLink="/detail/{{hero.id}}">

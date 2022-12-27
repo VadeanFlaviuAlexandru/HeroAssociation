@@ -6,14 +6,25 @@ a {
     font-weight: 900;
     letter-spacing: 2px;
     font-size: 48px;
-    width: 500px;
-    height: 200px;
+    width: 479px;
+    height: 60px;
     top: 12%;
     left: 51%;
     margin-top: -100px;
     margin-left: -250px;
     text-decoration: none;
     color: #FDFEFF;
+    font-style: italic; 
+    background-image: linear-gradient(to top, #000000, #ffffff); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 1650px) {
+ a{
+    width: 500px;
+ }
 }
 
 a:active {

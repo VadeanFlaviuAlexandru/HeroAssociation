@@ -5,6 +5,7 @@ export class Hero {
     public name: string,
     public power: string,
     public rank: string,
+    public colour: string,
     public alterEgo?: string,
   ) {  }
 
