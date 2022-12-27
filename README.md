@@ -12,9 +12,9 @@
 
 ## Key Features
 
-* <a href="https://extraordinary-puppy-9e57b9.netlify.app" target="_blank">Live Demo</a>
-* C.R.U.D. of a Hero Database
-* Used dependencies to use HTTP in the application
+* <a href="https://herodatabase.netlify.app" target="_blank">Live Demo</a>
+* C.R.U.D. of a Hero Database.
+* Used dependencies to use HTTP in the application.
 * Used this great nature palette for it. I wanted some black and white in this project:
 
 ![c](https://user-images.githubusercontent.com/103831098/195430167-ddc42d5b-5a80-448c-8cea-4ebe33ba0edd.PNG)
