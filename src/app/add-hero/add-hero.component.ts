@@ -18,7 +18,7 @@ export class AddHeroComponent implements OnInit {
     this.getHeroes();
   }
 
-  getHeroes(): void {             //get the heroes from the service
+  getHeroes(): void {          
     this.heroService.getHeroes()
     .subscribe(heroes => this.heroes = heroes);
   }

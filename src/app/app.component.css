@@ -77,7 +77,6 @@ a:active {
 }
 
 .flex {
-    /*Flexbox for containers*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +88,6 @@ a:active {
     width: 100%;
     height: 15vh;
     margin-bottom: -7px;
-    /*Fix for safari gap*/
     min-height: 100px;
     max-height: 150px;
 }
@@ -100,8 +98,6 @@ a:active {
     text-align: center;
     background-color: white;
 }
-
-/* Animation */
 
 .parallax>use {
     animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
@@ -137,7 +133,6 @@ a:active {
     }
 }
 
-/*Shrinking for mobile*/
 @media (max-width: 768px) {
     .waves {
         height: 40px;

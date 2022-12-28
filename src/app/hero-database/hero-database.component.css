@@ -69,16 +69,11 @@ ul {
     margin-top: 10px;
 }
 
-/*both for hidihg scrollbar*/
-/*Chrome, Safari and Opera */
 li::-webkit-scrollbar {
     display: none;
 }
 
-/*IE, Edge and Firefox */
 ul {
     -ms-overflow-style: none;
-    /* IE and Edge */
     scrollbar-width: none;
-    /* Firefox */
 }
