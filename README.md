@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">Personal project to understand Angualar better, following the official tutorial: Tour of Heroes.</h4>
-<h5> The CSS is a work in progress. </h5>
+<h5 align="center"> The CSS is a work in progress. </h5>
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
